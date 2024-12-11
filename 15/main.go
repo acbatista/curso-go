@@ -15,5 +15,5 @@ func main() {
 	adriano := Cliente{"adriano"}
 	adriano.andou()
 
-	fmt.Printf("%s O valor da stru\n", adriano.nome)
+	fmt.Printf("%s O valor da struct\n", adriano.nome)
 }
