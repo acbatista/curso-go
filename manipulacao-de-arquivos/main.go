@@ -54,7 +54,6 @@ func main() {
 	//remove arquivo
 
 	err = os.Remove("arquivo.txt")
-
 	if err != nil {
 		panic(err)
 	}
